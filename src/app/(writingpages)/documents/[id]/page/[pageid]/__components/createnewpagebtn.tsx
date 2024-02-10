@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";
 
-export default function CreateNewPageButton() {
+export default function CreateNewPageButtons() {
   return (
     <Button>
       <Plus />

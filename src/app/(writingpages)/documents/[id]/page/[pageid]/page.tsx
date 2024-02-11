@@ -27,9 +27,9 @@ export default function PageInDocumentPage() {
   }, []);
 
   return (
-    <div>
+    <div className="dark:bg-[#1a1b1e] h-full">
       <Navbar editorprops={editor} />
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-2">
         <TextEditor
           editor={editor}
           currentpage={pageid as any}

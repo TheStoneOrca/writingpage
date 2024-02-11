@@ -16,7 +16,7 @@ export default function TextEditor(props: {
         <h1 className="text-2xl">Chapter {props.currentchapter}</h1>
       </div>
       <EditorContent editor={props.editor} />
-      <div className="mt">
+      <div>
         <ChangePageButton
           currentpage={props.currentpage}
           currentdocument={props.currentdocument}
